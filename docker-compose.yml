@@ -21,7 +21,7 @@ services:
       - ./data/drone/:/var/lib/drone
     environment:
       - DRONE_OPEN=true
-      - DRONE_SERVER_HOST=http://58.87.87.168:8000
+      - DRONE_SERVER_HOST=drone-server:8000
       - DRONE_DEBUG=true
       - DRONE_GIT_ALWAYS_AUTH=false
       - DRONE_GOGS=true
